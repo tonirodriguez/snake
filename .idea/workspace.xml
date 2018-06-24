@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca92c08c-a979-4647-9f2b-5b93e69d83d6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/snake/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/snake/import-static.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/snake/core.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
+    <option name="y" value="23" />
+    <option name="width" value="1403" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="snake" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ReplState" timestamp="1529881820206">{:repl-history {:ide [], :local [{:command &quot;(+ 2 3)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(+ 45 5)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(load 'snake.core)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;((:use [namespace :only []]) \&quot;snake/core.clj\&quot;)&quot;, :offset 17} {:command &quot;(use \&quot;snake/core.clj\&quot;)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(in-ns \&quot;snake/core.clj\&quot;)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(create-snake)&quot;, :offset 14, :ns &quot;snake.core&quot;} {:command &quot;(add-points [10 10] [1 0])&quot;, :offset 26, :ns &quot;snake.core&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(use 'snake.core)&quot;, :offset 17, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;snake(core\&quot;)&quot;, :offset 19, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;snake/core.clj\&quot;)&quot;, :offset 23, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;core\&quot;)&quot;, :offset 13, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;src/snake/core\&quot;)&quot;, :offset 23, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;./core\&quot;)&quot;, :offset 15, :ns &quot;snake.core&quot;} {:command &quot;(import 'javax.swing.JFrame)&quot;, :offset 28, :ns &quot;user&quot;} {:command &quot;(def frame (JFrame. \&quot;Hello Frame\&quot;))\n(.setSize frame 200 200)\n(.setVisible frame true)&quot;, :offset 85, :ns &quot;user&quot;} {:command &quot;(import 'javax.swing.JButton)\n(def button (JButton. \&quot;Click Me!\&quot;))\n(.add panel button)&quot;, :offset 85, :ns &quot;user&quot;} {:command &quot;(:import (java.awt Color Dimension)\n  (java.swing JPanel JFrame Time JOptionPane)\n  (java.awt.event ActionListener KeyListener))&quot;, :offset 128, :ns &quot;user&quot;} {:command &quot;(move (create-snake))&quot;, :offset 21, :ns &quot;snake.core&quot;} {:command &quot;(move (create-snake grow))&quot;, :offset 26, :ns &quot;snake.core&quot;} {:command &quot;(move (create-snake) :grow)&quot;, :offset 27, :ns &quot;snake.core&quot;} {:command &quot;(win? {:body [1 1] [1 2] [1 3] [1 4] [1 5]})&quot;, :offset 44, :ns &quot;snake.core&quot;} {:command &quot;(win? {:body [1 1] [1 2] [1 3] [1 4] [1 5] [ 1 6]})&quot;, :offset 51, :ns &quot;snake.core&quot;} {:command &quot;(win? {:body [1 1] [1 2] [1 3] [1 4] [1 5] [1 6]})&quot;, :offset 50, :ns &quot;snake.core&quot;} {:command &quot;(win? {:body [[1 1] [1 2] [1 3] [1 4] [1 5]]})&quot;, :offset 46, :ns &quot;snake.core&quot;} {:command &quot;(win? {:body [[1 1] [1 2] [1 3] [1 4]]})&quot;, :offset 40, :ns &quot;snake.core&quot;} {:command &quot;(lose? {:body [[1 1] [1 2] [1 3]]})&quot;, :offset 35, :ns &quot;snake.core&quot;} {:command &quot;(lose? {:body [[1 1] [1 2] [1 1]]})&quot;, :offset 35, :ns &quot;snake.core&quot;} {:command &quot;(load \&quot;snake/core\&quot;)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(in-ns 'snake.core)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(eats? {body [[1 1] [1 2]]} {:location [2 2]})&quot;, :offset 46, :ns &quot;snake.core&quot;} {:command &quot;(eats? {:body [[1 1] [1 2]]} {:location [2 2]})&quot;, :offset 47, :ns &quot;snake.core&quot;} {:command &quot;(eats? {:body [[1 1] [1 2]]} {:location [1 1]})&quot;, :offset 47, :ns &quot;snake.core&quot;} {:command &quot;(turn (create-snake) [0 -1])&quot;, :offset 28, :ns &quot;snake.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <module name="snake" />
+      <setting name="replType" value="1" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method>
+        <option name="Synchronize Leiningen" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snake" type="ClojureREPL" factoryName="Local">
+      <module name="snake" />
+      <setting name="replType" value="1" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca92c08c-a979-4647-9f2b-5b93e69d83d6" name="Default" comment="" />
+      <created>1529875642433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529875642433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="161" y="23" width="1403" height="785" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="REPL" sideWeight="0.502907" side_tool="true" visible="true" weight="0.5584129" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="right" id="Leiningen" sideWeight="0.49709302" visible="true" weight="0.5584129" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16899338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49709302" weight="0.24981631" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake/import_static.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snake/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
