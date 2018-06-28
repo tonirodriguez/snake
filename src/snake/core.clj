@@ -114,7 +114,9 @@
 
 
 (defn game-panel [frame snake apple]
+
   (proxy [JPanel ActionListener KeyListener] []
+
     (paintComponent [g] ; <label id="code.game-panel.paintComponent"/>
       (proxy-super paintComponent g)
       (paint g @snake)
@@ -122,14 +124,16 @@
     (actionPerformed [e] ; <label id="code.game-panel.actionPerformed"/>
       (update-positions snake apple)
       (when (lose? @snake)
-	(reset-game snake apple)
-	(JOptionPane/showMessageDialog frame "You lose!"))
+	      (reset-game snake apple)
+	      (JOptionPane/showMessageDialog frame "You lose!"))
       (when (win? @snake)
-	(reset-game snake apple)
-	(JOptionPane/showMessageDialog frame "You win!"))
+	      (reset-game snake apple)
+	      (JOptionPane/showMessageDialog frame "You win!"))
       (.repaint this))
+
     (keyPressed [e] ; <label id="code.game-panel.keyPressed"/>
       (update-direction snake (dirs (.getKeyCode e))))
+
     (getPreferredSize []
       (Dimension. (* (inc width) point-size)
 		  (* (inc height) point-size)))
